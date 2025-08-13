@@ -1,3 +1,3 @@
 ﻿  Program.c
-C:\Users\user\Desktop\Program\Program\Program.c(37,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Program.vcxproj -> C:\Users\user\Desktop\Program\x64\Debug\Program.exe
+C:\Users\user\Desktop\C_process\Program\Program\Program.c(54,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Program.vcxproj -> C:\Users\user\Desktop\C_process\Program\x64\Debug\Program.exe

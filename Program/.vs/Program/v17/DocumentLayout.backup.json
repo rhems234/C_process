@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\C_process\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F5323F8-3D50-4685-86BC-3C1549DA0265}|Program\\Program.vcxproj|C:\\Users\\user\\Desktop\\Program\\Program\\Program.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5F5323F8-3D50-4685-86BC-3C1549DA0265}|Program\\Program.vcxproj|C:\\Users\\user\\Desktop\\C_process\\Program\\Program\\Program.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5F5323F8-3D50-4685-86BC-3C1549DA0265}|Program\\Program.vcxproj|solutionrelative:Program\\Program.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.c",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Program\\Program\\Program.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\C_process\\Program\\Program\\Program.c",
               "RelativeDocumentMoniker": "Program\\Program.c",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Program\\Program\\Program.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\C_process\\Program\\Program\\Program.c",
               "RelativeToolTip": "Program\\Program.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-08-12T09:14:50.252Z",
               "EditorCaption": ""
