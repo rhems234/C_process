@@ -1,5 +1,6 @@
 ﻿#include <stdio.h>
 #include <Windows.h>
+#include <conio.h>
 
 #define UP 72
 #define LEFT 75
@@ -18,31 +19,51 @@ void move(int x, int y) {
 
 int main() {
 
-	//move(5, 5);
+	int x = 0;
+	int y = 0;
+
+	// 8. 21 더블 엔드 버퍼링 
 
 	while (1) {
 
-		int ch = _getch();
+		char ch = _getch();
 
-		
+		if (ch == 27) {
+			printf("ESC 입력\n");
+			break;
+		}
+
+		if (ch == 0 || ch == -32) {
+			ch = _getch();
+		}
 
 		switch (ch) {
-			case UP:
-				printf("UP\n");
-				break;
-			case LEFT:
-				printf("LEFT\n");
-				break;
-			case RIGHT:
-				printf("RIGHT\n");
-				break;
-			case DOWN:
-				printf("DOWN\n");
-				break;
-			default:
-				break;
+
+		case UP: 
+			if (y > 0) {
+				y--;
+			}
+			break;
+		case LEFT: 
+			if (x > 0) {
+				x -= 2;
+			}
+			break;
+		case RIGHT:
+			x += 2;
+			break;
+		case DOWN:
+			y++;
+			break;
+		default:
+			printf("알 수 없는 키 입력 : %d\n", ch);
+			break;
 		}
- 
+		system("cls");
+
+		move(x, y);
+
+		printf("\n");		
 	}
 
 	return 0;
